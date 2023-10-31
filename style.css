@@ -1,0 +1,242 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: rgb(2, 12, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+h2 {
+    font-size: 2rem;
+    font-family: 'Aoboshi One', serif;
+    color: white;
+}
+p, ul{
+    font-size: 20;
+    font-family: 'Aoboshi One', serif;
+    color: white;
+}
+section {
+    height: 100vh;
+    width: 1440px;
+    padding: 0;
+}
+.button :active{
+    background-color:rgb(44, 130, 216);
+}
+
+
+.home {
+    background-color: rgb(23, 52, 85);
+    background: url("LittleNightmares2.jpeg") no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+.menu {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 50px;
+    margin-right: 60px;
+    font-family: 'Aoboshi One', serif;
+    font-size: 14px;
+    background-color:  rgb(6, 25, 48);
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    padding: 12px 30px;
+    list-style: none;
+    border-radius: 40px;
+}
+.menu a {
+    background-color:rgba(15, 65, 146, 0.90);
+    padding: 5px 8px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+.title {
+    font-family: 'Amatic SC';
+    color: white;
+    font-size: 4rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.little {
+    font-size: 2rem;
+}
+#catchline {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0),  rgb(22, 49, 81));
+    padding-bottom: 25px;
+    padding-top: 15px;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
+
+.characters {
+    background-color: rgb(22, 49, 81);
+}
+.characterflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(17, 39, 66);
+    width: 1032px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-top: 30px;
+}
+.characterback {
+    width: 420px;
+    text-align: center;
+    background-color:  rgb(12, 71, 130);
+}
+.monoimg, .siximg {
+    background-color:  rgb(12, 71, 130);
+}
+#description {
+   font-size: 20px;
+   text-align: center;
+}
+.mono, .six {
+    font-family: 'Amatic SC';
+    color: white;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+.monsters {
+    background-color: rgb(18, 42, 71);
+}
+.monsterflex {
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(15, 35, 59);
+    width: 1239px;
+    margin: 0 auto;
+    padding: 25px;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 80px;
+}
+.monsterback {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.monsterimg {
+    background-color: rgb(12, 71, 130);
+    width: 271px;
+}
+.hunter, .teacher, .doctor, .thinman {
+    width: 210px;
+    text-align: left;
+    padding: 15px;
+    justify-content: center;
+}
+.monsterback p.hunter, .monsterback p.doctor {
+    order: -1;
+}
+
+
+.footer {
+    height: 450px;
+    background-color: rgb(6, 25, 48);
+}
+.footerflex {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.rightside {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right
+}
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.footertitle {
+    font-family: 'Amatic SC';
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 10px;
+}
+.footerback {
+    background-color: rgb(18, 42, 71);
+    display: flex;
+    padding: 5px;
+    padding-left:50px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.buttonbig {
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    font-family: 'Aoboshi One', serif;
+    font-size: 24px;
+    list-style: none;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.buttonbig a {
+    background-color:rgb(12, 71, 130);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+}
+.question {
+    font-family: 'Amatic SC';
+    color: white;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-left: 25px
+}
+.buttonsmall{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: 'Aoboshi One', serif;
+    font-size: 14px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    margin-right: 25px;
+    margin-top: 40px;
+}
+.buttonsmall a {
+    background-color:rgba(15, 65, 146, 0.90);
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
